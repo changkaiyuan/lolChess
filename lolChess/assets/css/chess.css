@@ -31,6 +31,10 @@ ul li a{
 	padding:0 16px;
 }
 
+/*img{
+	max-width: 60%;
+	max-height: 60%;
+}*/
 
 
 .container{
@@ -103,14 +107,13 @@ ul li a{
 	padding-top:150px;
 }
 
-.footer{
-	/*background-color:#3a3f4c;*/
+/*.footer{
 	background-color: #3a3f4c;
 	height:30%;
 	width: 100%;
 	float:left;
 	display: inline-block;
-}
+}*/
 
 /*.brand-footer{
 	width: 160px;
@@ -122,14 +125,78 @@ ul li a{
 /*.nav-footer {float:left;}*/
 
 
+.footer{
+	/*height:12%;*/
+	height:110px;
+	width:100%;
+	background-color: #3a3f4c;
+}
 
-.note-footer {
+.content-footer {
+
 	float:left;
+	position:relative;
+}
+
+.left {
+	height:16%;
+	width: 16%;
+	display: inline-block;
+
+	/*background-color: blue;*/
+
+
+}
+
+.logo-footer{
+
+	/*width: 60%;*/
+	width:140px;
+	height:auto;
+	margin-top:-3%;
+	margin-left:-20%;
+	position:relative;
+
+
+}
+
+.right{
+	width: 84%;
+}
+
+.nav-footer ul{
+	margin:0  auto;
+	padding-top:2%;
+	padding-left:-5%;
+	margin-left:-14px;
+}
+
+.nav-footer{
+	padding-left:-5%;
+}
+
+.nav-footer ul li a{
+
+	font-size:20px;
+}
+
+.inquiries{
+	height:30%;
+	color: white;
+
+}
+
+.inquiries a{
+	font-size:24px;
+	color: green;
+
 }
 
 
 
-.left{
+/*
+
+.left img{
 
 	width: 20%;
 	height:20%;
@@ -137,12 +204,6 @@ ul li a{
 	display: inline-block;
 }
 
-/*.left img{
-	width:100%;
-	margin:auto;
-
-
-}*/
 
 .right{
 	width: 80%;
@@ -175,7 +236,7 @@ ul li a{
 	font-size:13px;
 }
 
-.inquries a{
+.inquiries a{
 	color: BurlyWood;
 	height:30%;
 	float:none;
@@ -183,3 +244,4 @@ ul li a{
 }
 
 
+*/
